@@ -1,84 +1,60 @@
-<!-- markdownlint-disable-next-line -->
-<div align="center">
+# Scriptor
+> Scriptor is a simple, minimal, clean & responsive Jekyll theme for writers.
 
-  <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+[Live Demo][demo] &nbsp; | &nbsp; [Download](https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme/archive/master.zip) &nbsp;
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+[![Theme preview image](/images/scriptor-jekyll.png)][demo]
 
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
+[demo]: https://scriptor-jekyll.netlify.app/
 
-  [**Live Demo** →][demo]
+# Premium Jekyll Themes
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
-
-</div>
+You can find our premium Jekyll themes here -> [jekyllthemes.io](https://jekyllthemes.io/developers/just-good-themes)
 
 ## Features
 
-- Dark Theme
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark Mode Images
-- Embed Media
-- Comment Systems
-- Built-in Search
-- Atom Feeds
-- PWA
-- Web Analytics
-- SEO & Performance Optimization
+- Responsive design
+- Archive organized by [tags](https://scriptor-jekyll.netlify.com/tags/)
+- Disqus Comments
+- Accent color options
+- [Prism](https://prismjs.com/) syntax highlighter
 
-## Documentation
+## Local Installation
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+How to set up and run this theme locally in a Jekyll site.
 
-## Contributing
+_Note: This theme cannot be configured and installed as a theme, however you can still use this repo as a theme with your own content in it._
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
+Clone the repo or fork.
 
-## Credits
+Set up Jekyll -please follow the official documentation that can be found on the [Jekyll docs](https://jekyllrb.com/docs/).
 
-### Contributors
+Navigate to the repo and run `bundle install` to install the dependencies.
 
-Thanks to [all the contributors][contributors] involved in the development of the project!
+Then run `bundle exec jekyll serve` to start the Jekyll server.
 
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> — Made with [contrib.rocks](https://contrib.rocks)</sub>
+## Deployment
 
-### Third-Party Assets
+### Local Instalation
 
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
+To set up Jekyll on local machine please follow the official documentation that can be found here -> https://jekyllrb.com/docs/.
 
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
+To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `bundle exec jekyll serve` to start the Jekyll server.
 
-## License
+### Manual Deployment
 
-This project is published under [MIT License][license].
+Jekyll outputs your static site to the `_site` directory by default. You can transfer the contents of this directory to almost any hosting provider to get your site live.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+### Netlify
+
+This theme is prepared to be hosted on [Netlify](https://www.netlify.com/). All you need to do is create a new private repository on GitHub or GitLab. Upload the theme to the repository and link your repo to Netlify. Please check [this link](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/#step-2-link-to-your-github) with the step-by-step guidelines.
+
+### Amazon S3
+
+If you want to host your site on Amazon S3, you can do so by using the [s3_website application](https://github.com/laurilehmijoki/s3_website). It will push your site to Amazon S3, where it can be served like any web server, dynamically scaling to almost unlimited traffic.
+
+Also, please check the [Deployment Methods](https://jekyllrb.com/docs/deployment-methods/) page on Jekyll website.
+
+## Licenses
+
+All files and directories are licensed under the [MIT](https://opensource.org/licenses/mit-license.php) unless explicitly stated.
